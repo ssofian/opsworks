@@ -22,7 +22,6 @@
     Deny from all
   </Directory>
   
-  Alias /app/ "/srv/www/myinsead/current/trunk/app/web/"
 
   LogLevel info
   ErrorLog <%= node[:apache][:log_dir] %>/<%= @params[:name] %>-error.log
