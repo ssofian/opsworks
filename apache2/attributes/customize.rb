@@ -7,5 +7,5 @@
 ###
 
 # The following shows how to override the Apache contact and timeout settings:
-#
-#normal[:apache][:document_root] = '/srv/www/myinsead/current/trunk/app/web/'
+
+normal[:apache][:document_root] = '/srv/www/myinsead/current/trunk/app/web/'
