@@ -21,8 +21,8 @@ Alias /icons/ "<%= node[:apache][:icondir] %>"
     Allow from all
 </Directory>
 
-Alias /app/ "/srv/www/myinsead/current/trunk/app/web/"
-<Directory "/srv/www/myinsead/current/trunk/app/web/">
+Alias /app/ "<%= node[:apache][:dir] %>"
+<Directory "<%= node[:apache]{:dir] %>">
     Options FollowSymLinks
     AllowOverride All
     Order allow,deny
